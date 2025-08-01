@@ -5,21 +5,21 @@
 .vscode/
 
 # Node.js/React ignores
-frontend/node_modules/*
-frontend/build/
-frontend/dist/
-frontend/.parcel-cache/
+**/frontend/build/
+**/frontend/dist/
+**/.parcel-cache/
 frontend/coverage/
+**/node_modules/
 
 # Java/Spring Boot ignores
-backend/target/
-backend/build/
-backend/.gradle/
-backend/out/
-backend/classes/
-backend/test-results/
-backend/gradlew
-backend/gradlew.bat
+**/backend/target/
+**/backend/build/
+**/backend/.gradle/
+**/backend/out/
+**/backend/classes/
+**/backend/test-results/
+**/backend/gradlew
+**/backend/gradlew.bat
 
 # Maven specific
 backend/mvnw
@@ -42,3 +42,4 @@ backend/.mvn/
 
 # OS generated files
 Thumbs.db
+.next/trace

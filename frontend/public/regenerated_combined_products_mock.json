@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "id": "PROD001",
+      "name": "Eco-Friendly Water Bottle",
+      "brand": "AquaPure",
+      "category": "Drinkware",
+      "price": 19.99,
+      "stock": 150,
+      "rating": 4.5,
+      "imageUrl": "https://placehold.co/300x300.png"
+    },
+    {
+      "id": "PROD002",
+      "name": "Organic Cotton T-Shirt",
+      "brand": "TerraThreads",
+      "category": "Apparel",
+      "price": 29.95,
+      "stock": 200,
+      "rating": 4.2,
+      "imageUrl": "https://placehold.co/300x300.png"
+    },
+    {
+      "id": "PROD003",
+      "name": "Smart LED Bulb",
+      "brand": "LumiLife",
+      "category": "Electronics",
+      "price": 15.50,
+      "stock": 300,
+      "rating": 4.8,
+      "imageUrl": "https://placehold.co/300x300.png"
+    },
+    {
+      "id": "PROD004",
+      "name": "Reusable Shopping Bag Set",
+      "brand": "CarryGreen",
+      "category": "Home Goods",
+      "price": 12.00,
+      "stock": 250,
+      "rating": 4.0,
+      "imageUrl": "https://placehold.co/300x300.png"
+    },
+    {
+      "id": "PROD005",
+      "name": "Noise-Cancelling Headphones",
+      "brand": "AudioBliss",
+      "category": "Electronics",
+      "price": 149.99,
+      "stock": 75,
+      "rating": 4.9,
+      "imageUrl": "https://placehold.co/300x300.png"
+    },
+    {
+      "id": "PROD006",
+      "name": "Stainless Steel Travel Mug",
+      "brand": "AquaPure",
+      "category": "Drinkware",
+      "price": 24.99,
+      "stock": 120,
+      "rating": 4.6,
+      "imageUrl": "https://placehold.co/300x300.png"
+    },
+    {
+      "id": "PROD007",
+      "name": "Wireless Charging Pad",
+      "brand": "LumiLife",
+      "category": "Electronics",
+      "price": 35.00,
+      "stock": 180,
+      "rating": 4.3,
+      "imageUrl": "https://placehold.co/300x300.png"
+    },
+    {
+      "id": "PROD008",
+      "name_Generated_By_User": "Men's Classic Fit Jeans",
+      "brand": "DuraDenim",
+      "category": "Apparel",
+      "price": 59.99,
+      "stock": 90,
+      "rating": 4.1,
+      "imageUrl": "https://placehold.co/300x300.png"
+    },
+    {
+      "id": "PROD009",
+      "name": "Aromatic Soy Candle",
+      "brand": "SereneScents",
+      "category": "Home Goods",
+      "price": 18.75,
+      "stock": 220,
+      "rating": 4.7,
+      "imageUrl": "https://placehold.co/300x300.png"
+    },
+    {
+      "id": "PROD010",
+      "name": "Portable Bluetooth Speaker",
+      "brand": "AudioBliss",
+      "category": "Electronics",
+      "price": 79.00,
+      "stock": 110,
+      "rating": 4.4,
+      "imageUrl": "https://placehold.co/300x300.png"
+    }
+  ]
+}

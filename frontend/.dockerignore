@@ -1,0 +1,10 @@
+node_modules
+bower_components
+.git
+.gitignore
+.vscode
+npm-debug.log
+yarn-error.log
+.env
+build
+dist

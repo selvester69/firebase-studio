@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* White background */
+    --foreground: 222 47% 11%; /* Dark blue-gray text */
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 170 60% 40%; /* Teal for primary elements */
+    --primary-foreground: 0 0% 100%; /* White text on primary */
+
+    --secondary: 210 40% 96.1%; /* Light gray-blue for secondary elements */
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215 28% 45%; /* Lighter text for muted */
+
+    --accent: 350 75% 60%; /* Salmon/pink for accent elements */
+    --accent-foreground: 0 0% 100%; /* White text on accent */
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 170 60% 40%; /* Primary color for focus rings */
+
+    --radius: 0.5rem;
+
+    /* Sidebar specific theme (keeping existing, may need tweaks if clashing) */
+    --sidebar-background: 220 15% 95%; 
+    --sidebar-foreground: 222 47% 15%;
+    --sidebar-primary: 170 60% 35%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 20% 88%;
+    --sidebar-accent-foreground: 222 47% 15%;
+    --sidebar-border: 220 15% 85%;
+    --sidebar-ring: 170 60% 40%;
+
+    /* Chart Colors */
+    --chart-1: hsl(205, 80%, 55%); /* Blue - CashToCash / Electronics */
+    --chart-2: hsl(145, 65%, 45%); /* Green - AccountRec / Appliances */
+    --chart-3: hsl(45, 90%, 55%);  /* Yellow - InventoryDays / Automotive */
+    --chart-4: hsl(0, 75%, 60%);   /* Red - AccountsPayable / Computers */
+    --chart-5: hsl(25, 85%, 60%);  /* Orange */
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 14%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 14%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 170 60% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 217 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 32.6% 20%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 350 75% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 217 32.6% 25%;
+    --input: 217 32.6% 25%;
+    --ring: 170 60% 45%;
+    
+    --sidebar-background: 222 47% 9%;
+    --sidebar-foreground: 210 40% 96%;
+    --sidebar-primary: 170 60% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 217 32.6% 15%;
+    --sidebar-accent-foreground: 210 40% 96%;
+    --sidebar-border: 217 32.6% 22%;
+    --sidebar-ring: 170 60% 45%;
+
+    --chart-1: hsl(205, 75%, 60%);
+    --chart-2: hsl(145, 60%, 50%);
+    --chart-3: hsl(45, 85%, 60%);
+    --chart-4: hsl(0, 70%, 65%);
+    --chart-5: hsl(25, 80%, 65%);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
