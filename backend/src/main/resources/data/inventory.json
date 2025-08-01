@@ -1,0 +1,20 @@
+[
+  {
+    "id": "INV001",
+    "name": "Item A",
+    "quantity": 150,
+    "status": "In Stock"
+  },
+  {
+    "id": "INV002",
+    "name": "Item B",
+    "quantity": 20,
+    "status": "Low Stock"
+  },
+  {
+    "id": "INV003",
+    "name": "Item C",
+    "quantity": 0,
+    "status": "Out of Stock"
+  }
+]

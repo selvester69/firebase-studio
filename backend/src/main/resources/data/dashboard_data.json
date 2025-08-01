@@ -1,0 +1,19 @@
+{
+  "financialPerformance": {
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
+    "data": [65.0, 59.0, 80.0, 81.0, 56.0, 55.0, 40.0]
+  },
+  "volumeToday": {
+    "volume": 1500
+  },
+  "monthlyKpis": {
+    "orders": 600,
+    "revenue": 18000,
+    "ontimeDelivery": 98
+  },
+  "inventorySummary": {
+    "inStock": 900,
+    "lowStock": 70,
+    "outOfStock": 5
+  }
+}

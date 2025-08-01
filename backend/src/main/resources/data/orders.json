@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ORD001",
+    "userId": "user123",
+    "customerName": "John Doe",
+    "status": "Delivered",
+    "orderDate": "2023-10-26",
+    "eta": "2023-10-27T10:00:00Z",
+    "items": ["Item A", "Item C"],
+    "currentLocation": {
+      "lat": 34.0522,
+      "lng": -118.2437
+    },
+    "destinationAddress": "123 Main St, Anytown, CA 91234",
+    "statusHistory": [
+      {
+        "status": "Processing",
+        "date": "2023-10-26T09:00:00Z"
+      },
+      {
+        "status": "Shipped",
+        "date": "2023-10-26T14:00:00Z"
+      },
+      {
+        "status": "Delivered",
+        "date": "2023-10-27T10:00:00Z"
+      }
+    ],
+    "totalAmount": 55.98
+  },
+  {
+    "id": "ORD002",
+    "userId": "user456",
+    "customerName": "Jane Smith",
+    "status": "Processing",
+    "orderDate": "2023-10-26",
+    "eta": "2023-10-28T15:30:00Z",
+    "items": ["Item B"],
+    "currentLocation": {
+      "lat": 37.7749,
+      "lng": -122.4194
+    },
+    "destinationAddress": "456 Oak Ave, Sometown, CA 94101",
+    "statusHistory": [
+      {
+        "status": "Processing",
+        "date": "2023-10-26T11:00:00Z"
+      }
+    ],
+    "totalAmount": 25.50
+  }
+]

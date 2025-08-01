@@ -1,0 +1,22 @@
+[
+  {
+    "id": "AGENT001",
+    "name": "Agent Alpha",
+    "status": "Available",
+    "currentLocation": {
+      "lat": 34.0736,
+      "lng": -118.4004
+    },
+    "assignedOrders": ["ORD001"]
+  },
+  {
+    "id": "AGENT002",
+    "name": "Agent Beta",
+    "status": "Delivering",
+    "currentLocation": {
+      "lat": 37.7749,
+      "lng": -122.4194
+    },
+    "assignedOrders": ["ORD002"]
+  }
+]
